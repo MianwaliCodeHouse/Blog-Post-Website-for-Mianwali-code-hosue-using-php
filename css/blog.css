@@ -1,0 +1,64 @@
+.articales>h1,.articales>p{
+  text-align: center;
+  margin: 1rem auto;
+  max-width: 1000px;
+}
+.articales>h1{
+  margin-top: 4rem;
+  font-size: 2.2rem;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+.articales>h2{
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  margin-top: 4rem;
+  font-size: 2.2rem;
+  font-weight: normal;
+  font-family: cursive;
+  text-decoration: underline;
+}
+.posts{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+.post{
+  max-width: 30%;
+  min-width: 260px;
+  margin: 2rem 0.5rem;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+.post img{
+  width: 100%;
+}
+.post>a{
+  display: inline-block;
+  margin: 0.9rem 0.3rem 1rem;
+  background-color: #1476a0;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.post>h1,.post>p{
+  margin: 0.5rem 0.3rem 0;
+}
+.post h1{
+  color: #222;
+}
+
+.footer{
+  background-color: #fff;
+  margin-top: 10rem;
+  
+}
+.footer .container{
+  margin-bottom: 0px !important;
+}

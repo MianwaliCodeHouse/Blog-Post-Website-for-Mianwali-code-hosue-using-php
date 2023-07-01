@@ -1,0 +1,122 @@
+
+.intro{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro .s1{
+  width: 50%;
+}
+.intro .s2{
+  width: 35%;
+  background-color: #3db2e4;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  border-radius: 40%;
+  overflow: hidden;
+}
+.intro .s2 img{
+  width: 100%;
+}
+.intro .s1 h1{
+  font-size: 3rem;
+  color: white;
+  font-weight: normal;
+  text-shadow: 2px 2px 5px black;
+  font-family: 'Belanosima', sans-serif;
+  
+  margin-bottom: 1.2rem;
+  
+}
+.intro .s1 p{
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+.intro .s1 a{
+  background-color: #1476a0;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem 1.3rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.articales>h1,.articales>p{
+  text-align: center;
+  margin: 1rem auto;
+  max-width: 1000px;
+}
+.articales>h1{
+  margin-top: 10rem;
+  font-size: 3rem;
+  color: white;
+  font-weight: normal;
+  text-shadow: 2px 2px 5px black;
+}
+.posts{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+.post{
+  max-width: 30%;
+  min-width: 260px;
+  margin: 2rem 0.5rem;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+.post img{
+  width: 100%;
+}
+.post>a{
+  display: inline-block;
+  margin: 0.9rem 0.3rem 1rem;
+  background-color: #1476a0;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.post>h1,.post>p{
+  margin: 0.5rem 0.3rem 0;
+}
+.post h1{
+  color: #222;
+}
+.more{
+  text-align: center;
+}
+.more a{
+  display: inline-block;
+  background-color: #1476a0;
+  color: white;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-right: 3.3rem;
+  margin-bottom: 3rem;
+}
+.about{
+  background-color: #fff;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.about h1{
+  font-weight: 400;
+  text-shadow: 2px 2px 5px black;
+  
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  
+}
+.about p{
+  max-width: 1000px;
+  margin: auto;
+}

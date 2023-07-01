@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+body{
+  background-color: #33a9e0;
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  
+}
+.card {
+  width: 400px;
+  height: 424px;
+  background: #F4F6FB;
+  border: 1px solid white;
+  box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+  border-radius: 10px;
+}
+
+.form {
+  padding: 25px;
+}
+
+.card_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+.card svg {
+  color: #33a9e0;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+
+.form_heading {
+  padding-bottom: 20px;
+  font-size: 2.4rem;
+  color: #33a9e0;
+}
+
+.field {
+  padding-bottom: 1.5rem;
+}
+
+.input {
+  border-radius: 5px;
+  background-color: #e9e9f7;
+  padding: 5px;
+  width: 100%;
+  color: #7a7ab3;
+  border: 1px solid #dadaf7;
+  font-size: 1.3rem;
+}
+
+.input:focus-visible {
+  outline: 1px solid #aeaed6;
+}
+
+.input::placeholder {
+  color: #bcbcdf;
+}
+
+label {
+  color: black;
+  font-size: 1.3rem;
+  display: block;
+  padding-bottom: 4px;
+}
+
+button {
+  background-color: #33a9e0;
+  margin-top: 10px;
+  font-size: 1.6rem;
+  padding: 7px 12px;
+  height: auto;
+  font-weight: 500;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #5f5f9c;
+}
